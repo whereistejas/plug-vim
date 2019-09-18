@@ -1,0 +1,48 @@
+" set options {{{
+set linebreak
+set autoread
+set autowrite
+set hidden
+set number
+set relativenumber
+set incsearch
+set hlsearch
+set smartcase
+set cursorline
+set undofile
+set undodir=~/.vim/undo/
+set updatetime=1000
+set encoding=UTF-8
+set wildmenu
+set wildmode=longest:full,full
+set foldmethod=marker
+set foldcolumn=3
+set laststatus=2
+set tabstop=4
+set shiftwidth=4
+set path+=** "enables fzf
+set modeline
+set clipboard=unnamed
+" }}}
+
+"save folds
+autocmd BufWinLeave *.* mkview
+autocmd BufWinEnter *.* silent loadview 
+
+" Ease of use remappings {{{
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+nnoremap j gj
+nnoremap k gk
+nnoremap ; :
+nnoremap <space> za
+nnoremap ff :find 
+" }}}
+
+" vim: set foldmethod=marker
