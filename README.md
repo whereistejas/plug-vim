@@ -19,9 +19,9 @@
 3. To introduce you to basic vim concepts.
 
 ## 1. History of Vim
-	`vi` was originally written by Bill Joy. `vim` was created by
-	Bram Moonlear and first released in 1991. Bram remains the project
-	lead to this day.
+`vi` was originally written by Bill Joy. `vim` was created by
+Bram Moonlear and first released in 1991. Bram remains the project
+lead to this day.
 
 ## 2. Terminology
 1. Commands - `:help`
