@@ -55,6 +55,7 @@ Refer this --> visual.txt
 2. `alias vim-talk="vim -u talk-vimrc"`
 
 ## References
+
 [1]: https://github.com/mhinz/vim-galore 
 
 [2]: http://vimcasts.org/ <tab> `wget -nd -np -r -erobots=off -N -c -A '*.m4v' http://media.vimcasts.org/videos/`
