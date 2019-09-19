@@ -1,27 +1,44 @@
+set nocompatible
+filetype plugin indent on
+syntax on
+
 " set options {{{
 set linebreak
+
 set autoread
 set autowrite
+" change buffers without saving
 set hidden
+" show line numbers and relative line numbers
 set number
 set relativenumber
+" incremental  search
 set incsearch
 set hlsearch
 set smartcase
+" shows cursorline
+" horizontally
 set cursorline
+" save persistent undo
 set undofile
 set undodir=~/.vim/undo/
+" don't really know what this is
 set updatetime=1000
 set encoding=UTF-8
+" shows options to command mode
 set wildmenu
 set wildmode=longest:full,full
 set foldmethod=marker
 set foldcolumn=3
+
 set laststatus=2
 set tabstop=4
 set shiftwidth=4
-set path+=** "enables fzf
+" enables fzf
+set path+=** 
+" reads modeline at the end of files.
 set modeline
+
 set clipboard=unnamed
 " }}}
 
